@@ -1,0 +1,18 @@
+C:\Users\fu14855\Dropbox\Controle Ambulancias\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Sistema de Solicitação de Prontuários.exe.config
+C:\Users\fu14855\Dropbox\Controle Ambulancias\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Sistema de Solicitação de Prontuários.exe.manifest
+C:\Users\fu14855\Dropbox\Controle Ambulancias\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Sistema de Solicitação de Prontuários.application
+C:\Users\fu14855\Dropbox\Controle Ambulancias\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Sistema de Solicitação de Prontuários.exe
+C:\Users\fu14855\Dropbox\Controle Ambulancias\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Sistema de Solicitação de Prontuários.pdb
+C:\Users\fu14855\Dropbox\Controle Ambulancias\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Sistema de Solicitacao Prontuarios.csprojResolveAssemblyReference.cache
+C:\Users\fu14855\Dropbox\Controle Ambulancias\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Sistema de Solicitacao Prontuarios.csproj.ResolveComReference.cache
+C:\Users\fu14855\Dropbox\Controle Ambulancias\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Sistema de Solicitação de Prontuários.g.resources
+C:\Users\fu14855\Dropbox\Controle Ambulancias\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\fu14855\Dropbox\Controle Ambulancias\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Menu.resources
+C:\Users\fu14855\Dropbox\Controle Ambulancias\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Pesquisa.resources
+C:\Users\fu14855\Dropbox\Controle Ambulancias\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\fu14855\Dropbox\Controle Ambulancias\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Status.resources
+C:\Users\fu14855\Dropbox\Controle Ambulancias\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Sistema de Solicitacao Prontuarios.csproj.GenerateResource.Cache
+C:\Users\fu14855\Dropbox\Controle Ambulancias\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Sistema de Solicitação de Prontuários.exe.manifest
+C:\Users\fu14855\Dropbox\Controle Ambulancias\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Sistema de Solicitação de Prontuários.application
+C:\Users\fu14855\Dropbox\Controle Ambulancias\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Sistema de Solicitação de Prontuários.exe
+C:\Users\fu14855\Dropbox\Controle Ambulancias\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Sistema de Solicitação de Prontuários.pdb

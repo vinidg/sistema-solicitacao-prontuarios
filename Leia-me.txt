@@ -1,0 +1,81 @@
+=== Sistema de Solicitação de Prontuários ===
+                                                                     
+Contributors: Vinicius Duarte Galdino, Mayco fabricio Borges Silva
+S.O. compatíveis: Win XP, Win Vista, Win Seven, Win 8, Win 8.1
+
+Todos as licenças são de codigo aberto, todas gratuitas.
+
+== Descrição ==
+
+O Sistema de Controle de Prontuários vem com o intuito de facilitar o controle de prontuários 
+solicitados por paciente ou solicitantes. Esse sistema foi desenvolvido pelo Aux. De Escritório 
+Vinicius Duarte Galdino do Departamento de Atenção Hospitalar de Urgência e Emergência (DAHUE).
+Esse sistema registra a solicitação do paciente, imprimi uma via com protocolo e envia um e-mail 
+para a gerencia, onde será encaminhado a pessoa que irá levantar a ficha. No sistema também há 
+controle de status para ser controlado o status dos prontuários já registrados. 
+Onde será defino se foi entregue ou não e qual motivo ou RG do paciente/solicitante.
+
+== Installation ==
+Para instalar o sistema o instalador mysql-connector-net é de extrema importancia para que haja a 
+conexão do banco de dados.
+Segue os passos:
+
+e.g.
+
+1. Instale o aplicativo: mysql-connector-net por completo dentro da pasta Sistema de Solicitação de Prontuários.
+2. Entre na pasta correspondente ao Sistema opericional(SISTEMA DE PRONTUARIOS XP(somente para Win XP) ou SISTEMA DE PRONTUARIOS ++(Vista em diante)) e clique em Setup.
+3. Clique em instalar e logo em seguida o sistema sera aberto.
+4. Dentro da mesma pasta clique com o botão direito do mouse no "Sistema de Prontuario" e selecione a opção "Enviar para" e clique em "Aréa de Trabalho(Criar atalho)",
+para que haja um atalho no Desktop do computador.
+
+Em caso de problemas/Bugs/Sugestões encaminhar para o e-mail: vinidgdon@gmail.com/vinicius.galdino@saobernardo.sp.gov.br com o assunto Sistema de Controle de Prontuarios - 
+(motivo).
+
+MZZZZZZZZZZZOMMMMMMMMMMMMMMOZZZZZZZZZZZMNNZZZZZZZZZZZZZZZZZZZZZZ8DMMMMMMMMMMMMMDDZZZZZZZZZZZZZZZZZZZZZZ8NMMMMMMMMMMMMMMM
+MZOZZZZZZZZZOMMMMMMMMMMMMMMOZZZZZZZZZZZMNNZZZZZZZZZZZZZZZZZZZZZZZZZZZNMMMMMMMMMOZZZZZZZZZZZZZZZZZZZZZZZZZMMMMMMMMMMMMMMM
+MZOZZZZZZZZZOMMMMMMMMMMMMMMOZZZZZZZZZZZMNNZZZZZZZZZZZZZZZZZZZZZZZZZZZZNMMMMMMMNZZZZZZZZZZZZZZZZZZZZZZZZZZNMMMMMMMMMMMMMM
+MZZZZZZZZZZZOMMMMMMMMMMMMMMOZZZZZZZZZZZMNNZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZNMMMMM8ZZZZZZZZZZZZ$$IZZZZZZZZZZZZMMMMMMMMMMMMMM
+MZZZZZZZZZZZOMMMMMMMMMMMMMMOZZZZZZZZZZZMNNZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZOMMMMMOZZZZZZZZZZZ$?++7$ZZZZZZZZZZMMMMMMMMMMMMMM
+MZZZZZZZZZZZOMMMMMMMMMMMMMMOZZZZZZZZZZZMNNZZZZZZZZZZDMMMMMMM8ZZZZZZZZZZZZDMMMNZZZZZZZZZ$?+++++++?7ZZZZZZZZDMMMMMMMMMMMMM
+MZOZZZZZZZZZOMMMMMMMMMMMMMMOZZZZZZZZZZZMNNZZZZZZZZZZ8NMMMMMMNZZZZZZZZZZZZDMM88ZZZZZZZ$I?++++++++++?$OZZZZZO8MMMMMMMMMMMM
+MZOZZZZZZZZZOMMMMMMMMMMMMMMOZZZZZZZZZZZMNNZZZZZZZZZZ8NMMMMMMMNDZZZZZZZZZZ8NMZZZZZZ7I++++++I77$77?+++??ZZZZZZMMMMMMMMMMMM
+MZOZZZZZZZZZOMMMMMMMMMMMMMMOZZZZZZZZZZZMNNZZZZZZZZZZ8NMMMMMMMNNZZZZZZZZZZ8NDZZZ$$?+++++I$$$$$$=:+??+++?$ZZZZ8MMMMMMMMMMM
+MZOZZZZZZZZZOMMMMMMMMMMMMMMOZZZZZZZZZZZMNNZZZZZZZZZZ8NMMMMMMMD8ZZZZZZZZZZ8M8ZZ$?+++++??7=~,..==~+7$++++??ZZZOMMMMMMMMMMM
+MZOZZZZZZZZZOMMMMMMMMMMMMMMOZZZZZZZZZZZMNNZZZZZZZZZZDMMMMMMMNZZZZZZZZZZZZDMZ$7+++++++:.:I$$7I?~,,IZI++++++7$ZDMMMMMMMMMM
+MZOZZZZZZZZZOMMMMMMMMMMMMMMOZZZZZZZZZZZMNNZZZZZZZZZZ8MMMMMMMOZZZZZZZZZZZZDNZZZ7+++++?II$?~~+=7$Z~,:?++++++IIZ8NMMMMMMMMM
+MZOZZZZZZZZZOMMMMMMMMMMMMMMOZZZZZZZZZZZMNNZZZZZZZZZZZOZZZOZZZZZZZZZZZZZZ8OZZZZZ$I++++=~$$$$?+I++~I7+++++?7ZZZZZMMMMMMMMM
+MZOZZZZZZZZZOMMMMMMMMMMMMMMOZZZZZZZZZZZMNNZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZNOZZZZZZZI++++?7$$7$$77$$I++++++?ZZZZZODMMMMMMMM
+MZOZZZZZZZZZOMMMMMMMMMMMMMMOZZZZZZZZZZZMNNZZZZZZZZZZZZZZZZZZZZZZZZZZZZNM8ZZZZZZZZZ$$?+++?+I77I????++++IZZZZZZZZOMMMMMMMM
+MZOZZZZZZZZZOMMMMMMMMMMMMMMOZZZZZZZZZZZMNNZZZZZZZZZZZZZZZZZZZZZZZZOOOMMMOZZZZZZZZZZZZI?+++++++++++++IIZZZZZZZZZZNMMMMMMM
+MZZZZZZZZZZZZNMMMMMMMMMMMMMOZZZZZZZZZZZMNNZZZZZZZZZZZZZOOOZZZZZZ88MMMMMMZZZZZZZZZZZZZZO?+++++?++++?$ZZZZZZZZZZZZ8NMMMMMM
+MZZZZZZZZZZZZDMMMMMMMMMMMMMZZZZZZZZZZZZMNNZZZZZZZZZZDMMMMMMMMMMMMMMMMMOZZZZZZZZZZZZZZZOZI?++++I7ZZZZZZZZZZZZZZZZZZMMMMMM
+MOZZZZZZZZZZZDMMMMMMMMMMMMMZZZZZZZZZZZZMNNZZZZZZZZZZDNMMMMMMMMMMMMMMMMZZZZZZZZZZZZZZZZZZZZI++IZZZZZZZZZZZZZZZZZZZZNMMMMM
+MDDZZZZZZZZZZZ$MMMMMMMMMMOZZZZZZZZZZZODMNNZZZZZZZZZZ8NMMMMMMMMMMMMMMMDZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZMMMMM
+MNNZZZZZZZZZZZODMMMMMMMMNOZZZZZZZZZZZ8MMNNZZZZZZZZZZDMMMMMMMMMMMMMMMM8ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZONMMMM
+MMM8ZZZZZZZZZZZZZZ88D8OOZZZZZZZZZZZZZMMMNNZZZZZZZZZZDMMMMMMMMMMMMMMMMZZZZZZZZZZZZZZZOMMMMMMMMMMMMMMZZZZZZZZZZZZZZZZDMMMM
+MMM8ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZOMMMNNZZZZZZZZZZDMMMMMMMMMMMMMMNDZZZZZZZZZZZZZZZ8MMMMMMMMMMMMMMOZZZZZZZZZZZZZZZ8DMMM
+MMMMD8ZZZZZZZZZZZZZZZZZZZZZZZZZZZZO8MMMMNNZZZZZZZZZZDMMMMMMMMMMMMMMOZZZZZZZZZZZZZZZZMMMMMMMMMMMMMMMDZZZZZZZZZZZZZZZZZMMM
+MMMMMMNOZZZZZZZZZZZZZZZZZZZZZZZZONMMMMMMNNZZZZZZZZZZDMMMMMMMMMMMMMNZZZZZZZZZZZZZZZOOMMMMMMMMMMMMMMMNZZZZZZZZZZZZZZZZZOMM
+MMMMMMMMMOZZZZZZZZZZZZZZZZZZZZODNMMMMMMMNNZZZZZZZZZZDMMMMMMMMMMMMM8ZZZZZZZZZZZZZZZ8DMMMMMMMMMMMMMMMMOZZZZZZZZZZZZZZZZZMM
+MMMMMMMMMMMMMD8OOZZZOZZZO88NMMMMMMMMMMMMMMNNNNNNNNNDNMMMMMMMMMMMMMNDDDNNDDDDDDDDDNMMMMMMMMMMMMMMMMMMMNDDDDDDDDDDDDDDDNNM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+
+                                                                                                                                                                                       GlassGiant.com
+ ,gggggggggggg,              ,ggg,  ,ggg,        gg  ,ggg,         gg    ,ggggggg, 
+dP"""88""""""Y8b,           dP""8I dP""Y8b       88 dP""Y8a        88  ,dP""""""Y8b
+Yb,  88       `8b,         dP   88 Yb, `88       88 Yb, `88        88  d8'    a  Y8
+ `"  88        `8b        dP    88  `"  88       88  `"  88        88  88     "Y8P'
+     88         Y8       ,8'    88      88aaaaaaa88      88        88  `8baaaa     
+     88         d8       d88888888      88"""""""88      88        88 ,d8P""""     
+     88        ,8P __   ,8"     88      88       88      88        88 d8"          
+     88       ,8P'dP"  ,8P      Y8      88       88      88        88 Y8,          
+     88______,dP' Yb,_,dP       `8b,    88       Y8,     Y8b,____,d88,`Yba,,_____, 
+    888888888P"    "Y8P"         `Y8    88       `Y8      "Y888888P"Y8  `"Y8888888 
+                                                                                   
+                                                                                   
+                                                                                   
+                                                                                   
+                                                                                   
+                                                                                   
+
+                                                               
