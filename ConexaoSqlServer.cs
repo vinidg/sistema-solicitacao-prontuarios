@@ -11,7 +11,7 @@ namespace WindowsFormsApplication1
     {
         public static SqlConnection GetConexao()
         {
-            string strCon = "data source = srv-mssql-01;initial catalog = DAHUE;user id = dahue; password = DT1_D@huE_1438_DtI";
+            string strCon = "data source = XXX;initial catalog = XXXX;user id = dXXXXX; password = XXXX";
             SqlConnection conexao = new SqlConnection(strCon);
             conexao.Open();
             return conexao;
