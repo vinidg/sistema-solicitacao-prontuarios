@@ -98,3 +98,5 @@ C:\Users\fu14855\Dropbox\Source\SqlServer\Solicitacao de prontuarios\WindowsForm
 C:\Users\fu14855\Dropbox\Source\SqlServer\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Release\Sistema de Solicitação de Prontuários.pdb
 C:\Users\fu14855\Dropbox\Source\SqlServer\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Release\Sistema de Solicitacao Prontuarios.csprojResolveAssemblyReference.cache
 C:\Users\fu14855\Dropbox\Source\SqlServer\Solicitacao de prontuarios\WindowsFormsApplication1\bin\Release\RouteDebugger.dll
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\bin\Release\Sistema de Solicitação de Prontuários.exe.config
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Release\Sistema de Solicitacao Prontuarios.csproj.ResolveComReference.cache
