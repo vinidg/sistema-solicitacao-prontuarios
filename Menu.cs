@@ -70,7 +70,7 @@ namespace WindowsFormsApplication1
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start(@"\\div-hos-ad03\Publica\Sistema para Solicitação de prontuário\SOLICITAÇÃO DE PRONTUÁRIO.doc");
+            System.Diagnostics.Process.Start(@"\\10.1.0.7\Mapa_de_Leitos\Sistemas - Vinicius\Sistema de Solicitacao de Prontuarios\SOLICITAÇÃO DE PRONTUÁRIO.doc");
         }
 
 

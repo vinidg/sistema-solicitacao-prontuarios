@@ -100,3 +100,20 @@ C:\Users\fu14855\Dropbox\Source\SqlServer\Solicitacao de prontuarios\WindowsForm
 C:\Users\fu14855\Dropbox\Source\SqlServer\Solicitacao de prontuarios\WindowsFormsApplication1\bin\Release\RouteDebugger.dll
 D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\bin\Release\Sistema de Solicitação de Prontuários.exe.config
 D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Release\Sistema de Solicitacao Prontuarios.csproj.ResolveComReference.cache
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\bin\Release\Sistema de Solicitação de Prontuários.exe.manifest
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\bin\Release\Sistema de Solicitação de Prontuários.application
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\bin\Release\Sistema de Solicitação de Prontuários.exe
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\bin\Release\Sistema de Solicitação de Prontuários.pdb
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\bin\Release\RouteDebugger.dll
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Release\Sistema de Solicitação de Prontuários.g.resources
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Form1.resources
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Menu.resources
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.MenuUpa.resources
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Pesquisa.resources
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Properties.Resources.resources
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Status.resources
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Release\Sistema de Solicitacao Prontuarios.csproj.GenerateResource.Cache
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Release\Sistema de Solicitação de Prontuários.exe.manifest
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Release\Sistema de Solicitação de Prontuários.application
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Release\Sistema de Solicitação de Prontuários.exe
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Release\Sistema de Solicitação de Prontuários.pdb
