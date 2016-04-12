@@ -16,3 +16,23 @@ C:\Users\fu14855\Dropbox\Controle Ambulancias\WindowsFormsApplication1\WindowsFo
 C:\Users\fu14855\Dropbox\Controle Ambulancias\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Sistema de Solicitação de Prontuários.application
 C:\Users\fu14855\Dropbox\Controle Ambulancias\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Sistema de Solicitação de Prontuários.exe
 C:\Users\fu14855\Dropbox\Controle Ambulancias\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Sistema de Solicitação de Prontuários.pdb
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\bin\Debug\Sistema de Solicitação de Prontuários.exe.config
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Debug\Sistema de Solicitacao Prontuarios.csproj.ResolveComReference.cache
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Debug\Sistema de Solicitação de Prontuários.exe
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Debug\Sistema de Solicitação de Prontuários.pdb
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\bin\Debug\Sistema de Solicitação de Prontuários.exe.manifest
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\bin\Debug\Sistema de Solicitação de Prontuários.application
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\bin\Debug\Sistema de Solicitação de Prontuários.exe
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\bin\Debug\Sistema de Solicitação de Prontuários.pdb
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\bin\Debug\RouteDebugger.dll
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Debug\Sistema de Solicitacao Prontuarios.csprojResolveAssemblyReference.cache
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Debug\Sistema de Solicitação de Prontuários.g.resources
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Menu.resources
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MenuUpa.resources
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Pesquisa.resources
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Status.resources
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Debug\Sistema de Solicitacao Prontuarios.csproj.GenerateResource.Cache
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Debug\Sistema de Solicitação de Prontuários.exe.manifest
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Debug\Sistema de Solicitação de Prontuários.application

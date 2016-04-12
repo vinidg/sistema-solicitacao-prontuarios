@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pesquisa));
             this.ListaPesquisa = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -58,6 +59,11 @@
             this.txtPacientePesquisa = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtRgPaciente = new System.Windows.Forms.TextBox();
+            this.BtnImprimir = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.nomeDoPaciente = new System.Windows.Forms.Label();
+            this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.SuspendLayout();
             // 
             // ListaPesquisa
@@ -94,7 +100,9 @@
             this.ListaPesquisa.TabIndex = 0;
             this.ListaPesquisa.UseCompatibleStateImageBehavior = false;
             this.ListaPesquisa.View = System.Windows.Forms.View.Details;
-            this.ListaPesquisa.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
+            this.ListaPesquisa.SelectedIndexChanged += new System.EventHandler(this.ListaPesquisa_SelectedIndexChanged);
+            this.ListaPesquisa.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ListaPesquisa_MouseDoubleClick);
+            this.ListaPesquisa.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ListaPesquisa_MouseDown);
             // 
             // columnHeader1
             // 
@@ -281,12 +289,64 @@
             this.txtRgPaciente.TabIndex = 8;
             this.txtRgPaciente.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtRgPaciente_KeyDown);
             // 
+            // BtnImprimir
+            // 
+            this.BtnImprimir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.BtnImprimir.BackColor = System.Drawing.SystemColors.Highlight;
+            this.BtnImprimir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnImprimir.ForeColor = System.Drawing.Color.White;
+            this.BtnImprimir.Location = new System.Drawing.Point(12, 675);
+            this.BtnImprimir.Name = "BtnImprimir";
+            this.BtnImprimir.Size = new System.Drawing.Size(106, 46);
+            this.BtnImprimir.TabIndex = 9;
+            this.BtnImprimir.Text = "Imprimir";
+            this.BtnImprimir.UseVisualStyleBackColor = false;
+            this.BtnImprimir.Click += new System.EventHandler(this.BtnImprimir_Click);
+            // 
+            // label5
+            // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(124, 688);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(169, 20);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "Imprimir solicitação de:";
+            // 
+            // nomeDoPaciente
+            // 
+            this.nomeDoPaciente.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.nomeDoPaciente.AutoSize = true;
+            this.nomeDoPaciente.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nomeDoPaciente.Location = new System.Drawing.Point(299, 688);
+            this.nomeDoPaciente.Name = "nomeDoPaciente";
+            this.nomeDoPaciente.Size = new System.Drawing.Size(0, 20);
+            this.nomeDoPaciente.TabIndex = 11;
+            // 
+            // printPreviewDialog1
+            // 
+            this.printPreviewDialog1.AutoScrollMargin = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.AutoScrollMinSize = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.ClientSize = new System.Drawing.Size(400, 300);
+            this.printPreviewDialog1.Enabled = true;
+            this.printPreviewDialog1.Icon = ((System.Drawing.Icon)(resources.GetObject("printPreviewDialog1.Icon")));
+            this.printPreviewDialog1.Name = "printPreviewDialog1";
+            this.printPreviewDialog1.Visible = false;
+            // 
+            // printDocument1
+            // 
+            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
+            // 
             // Pesquisa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1354, 733);
+            this.Controls.Add(this.nomeDoPaciente);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.BtnImprimir);
             this.Controls.Add(this.txtRgPaciente);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -300,7 +360,6 @@
             this.Name = "Pesquisa";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pesquisa";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Pesquisa_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -339,6 +398,11 @@
         private System.Windows.Forms.TextBox txtRgPaciente;
         private System.Windows.Forms.ColumnHeader columnHeader20;
         private System.Windows.Forms.ColumnHeader columnHeader21;
+        private System.Windows.Forms.Button BtnImprimir;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label nomeDoPaciente;
+        private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
+        private System.Drawing.Printing.PrintDocument printDocument1;
 
     }
 }

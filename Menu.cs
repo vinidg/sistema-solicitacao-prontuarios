@@ -61,11 +61,8 @@ namespace WindowsFormsApplication1
         }
         private void BtnPesquisar_Click(object sender, EventArgs e)
         {
-
             Pesquisa pes = new Pesquisa(numUpa);
             pes.Show();
-         
-            
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

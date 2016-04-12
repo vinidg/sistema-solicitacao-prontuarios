@@ -118,7 +118,7 @@ namespace WindowsFormsApplication1
             label1.Text = "Solicitação foi entregue ?";
             button1.Visible = false;
         }
-
+       
 
     }
 }

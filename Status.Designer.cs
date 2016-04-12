@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Status));
             this.label1 = new System.Windows.Forms.Label();
             this.BtnAlterar = new System.Windows.Forms.Button();
             this.txtFuncio = new System.Windows.Forms.TextBox();
@@ -38,6 +39,8 @@
             this.txtMotivoRG = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
             this.SuspendLayout();
             // 
             // label1
@@ -179,5 +182,7 @@
         private System.Windows.Forms.TextBox txtMotivoRG;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button1;
+        private System.Drawing.Printing.PrintDocument printDocument1;
+        private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
     }
 }

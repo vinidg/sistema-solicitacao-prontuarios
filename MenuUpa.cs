@@ -92,6 +92,12 @@ namespace WindowsFormsApplication1
                 mn.ShowDialog();
                
             }
+            else if (comboBox1.Text == "DAHUE")
+            {
+                Menu mn = new Menu("");
+                mn.ShowDialog();
+
+            }
             else 
             {
                 MessageBox.Show("Não foi reconhecida a unidade", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);

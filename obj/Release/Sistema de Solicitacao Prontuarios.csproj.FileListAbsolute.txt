@@ -117,3 +117,4 @@ D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Release\Sistem
 D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Release\Sistema de Solicitação de Prontuários.application
 D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Release\Sistema de Solicitação de Prontuários.exe
 D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Release\Sistema de Solicitação de Prontuários.pdb
+D:\source\Solicitacao de prontuarios\WindowsFormsApplication1\obj\Release\Sistema de Solicitacao Prontuarios.csprojResolveAssemblyReference.cache
