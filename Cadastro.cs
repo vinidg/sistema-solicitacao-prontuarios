@@ -334,7 +334,7 @@ namespace WindowsFormsApplication1
             else
             {
                 e.Graphics.DrawString("Esse prontuário só poderá ser entregue ao solicitante, onde devera comparecer ao" + Environment.NewLine +
-                    "Departamento localizado na Rua Aurora, 10 - Caminho do Mar, São Bernardo do Campo - SP.", fonte2, Brushes.Black, 100, 1040);
+                    "departamento Rua João Pessoa nº 59 – 2º andar – Centro – São Bernardo do Campo – SP.", fonte2, Brushes.Black, 100, 1040);
    
             }
             e.Graphics.DrawString("Prazo: 20 à 30 dias uteis", fonte, Brushes.Black, 100, 1090);

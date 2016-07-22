@@ -4,7 +4,7 @@
   <description asmv2:iconFile="favicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="Sistema de Solicitação de Prontuários" version="3.0.0.12" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="Sistema de Solicitação de Prontuários" version="3.0.1.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="Sistema de Solicitação de Prontuários.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -73,13 +73,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sistema de Solicitação de Prontuários.exe" size="1303040">
-      <assemblyIdentity name="Sistema de Solicitação de Prontuários" version="3.0.0.12" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Sistema de Solicitação de Prontuários" version="3.0.1.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>HjAN9ky6bbYMrvXA9H6Ty0Uqby9JTVPZ7tURiLOtfbM=</dsig:DigestValue>
+        <dsig:DigestValue>7Jr8Akk1XDQ0oB+4gLCMD1sliBPr3ZnFX6/8kD5Ehqc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
