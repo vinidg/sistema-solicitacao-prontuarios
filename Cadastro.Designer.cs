@@ -188,12 +188,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.AutoSize = true;
             this.groupBox1.BackColor = System.Drawing.Color.White;
+            this.groupBox1.Controls.Add(this.txtNomeSolicitante);
             this.groupBox1.Controls.Add(this.label14);
             this.groupBox1.Controls.Add(this.txtMotivo);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.txtNomedaMae);
             this.groupBox1.Controls.Add(this.txtLocalFato);
-            this.groupBox1.Controls.Add(this.txtNomeSolicitante);
             this.groupBox1.Controls.Add(this.lblfato);
             this.groupBox1.Controls.Add(this.txtRgSolicitante);
             this.groupBox1.Controls.Add(this.label5);

@@ -247,8 +247,6 @@ namespace WindowsFormsApplication1
                 }
 
             }
-
-
         }
 
         private void RbSim_CheckedChanged(object sender, EventArgs e)
@@ -342,7 +340,6 @@ namespace WindowsFormsApplication1
 
         private void printPreviewDialog1_Load(object sender, EventArgs e)
         {
-
             printPreviewDialog1.WindowState = FormWindowState.Maximized;
             printDocument1.DefaultPageSettings.PaperSize = new System.Drawing.Printing.PaperSize("PaperA4", 826, 1169);
             printDocument1.Print();
@@ -352,10 +349,9 @@ namespace WindowsFormsApplication1
         private void txtNomePaciente_KeyUp(object sender, KeyEventArgs e)
         {
            
-
             if (da == DialogResult.Yes)
             {
-                txtNomeSolicitante.Text = txtNomePaciente.Text;
+                txtNomeSolicitante.Text = "";
                 txtNomeSolicitante.Enabled = false;
                 
             }
