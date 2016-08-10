@@ -42,7 +42,6 @@ namespace WindowsFormsApplication1
 
         public void horarioComercial()
         {
-
             TimeSpan inicio = new TimeSpan(07, 50, 0);
             TimeSpan final = new TimeSpan(17, 10, 0);
             TimeSpan puts = DateTime.Now - DateTime.Now.Date;
