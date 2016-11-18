@@ -16,19 +16,9 @@ namespace WindowsFormsApplication1
         public MenuUpa()
         {
             InitializeComponent();
-            update();
         }
         Version appverion = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
-        public void update()
-        {
-            Update updatando = new Update();
-            updatando.up();
-            if (updatando.Yn == true)
-            {
-                this.Dispose();
-            }
 
-        }
         private void button1_Click(object sender, EventArgs e)
         {
 
